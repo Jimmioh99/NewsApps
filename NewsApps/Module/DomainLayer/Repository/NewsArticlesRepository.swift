@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol NewsArticlesRepository {
+    func getNewsArticles(sources: String, keyword: String, page: Int, _ callback: @escaping (Result<NewsArticlesModel, Error>) -> Void)
+}

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  NewsApps
 //
-//  Created by Jimmi on 11/01/23.
+//  Created by Jimmi Oh on 15/01/23.
 //
 
 import UIKit

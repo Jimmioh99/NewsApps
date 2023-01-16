@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol NewsSourcesRepository {
+    func getNewsSources(category: CategoryType, _ callback: @escaping (Result<NewsSourcesModel, Error>) -> Void)
+}
